@@ -1,253 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>2 Mauricio Assenço</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Maurício Assenço</title>
+    </head>
 
-<body>
+    <body>
+        <!--Inicio Menu Navegação-->
+        <!-- Inicio Menu Hamburguer -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand mostra-menu" href="#">Maurício <span
+                    class="texto-secundario">Assenço</span> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Fim Menu Hamburguer -->
+            <div class="collapse navbar-collapse barra-menu" id="navbarText">
+                <ul class="navbar-nav mr-auto menu">
+                    <li class="nav-item active" data-toggle="collapse"
+                        data-target=".navbar-collapse.show">
+                        <a class="nav-link" href="#home">Home<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse"
+                        data-target=".navbar-collapse.show">
+                        <a class="nav-link" href="#sobre">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse"
+                        data-target=".navbar-collapse.show">
+                        <a class="nav-link" href="#desenvolvimento">Desenvolvimento</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse"
+                        data-target=".navbar-collapse.show">
+                        <a class="nav-link" href="#contato" id="desatque">Contato</a>
+                    </li>
+                </ul>
+                <span class="navbar-text sociais">
+                    <a href="https://twitter.com/AssencoMau" target="_blank">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mau.assenco"
+                        target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/mauricio-assen%C3%A7o-7427a117a/"
+                        target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/mauassenco" target="_blank">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mau.assenco"
+                        target="_blank">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </span>
 
-    <nav class="navbar">
-        <div class="container">
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#competencias">Competências</a></li>
-                <li><a href="#contato"><span id="destaque">Contato</span></a></li>
-            </ul>
-            <div class="sociais-topo">
-                <a href="#!">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#!">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="#!">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/mauassenco" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="#!">
-                    <i class="fab fa-instagram"></i>
-                </a>
             </div>
-        </div>
-    </nav>
+        </nav>
+        <!--Fim Menu Navegação-->
 
-    <section class="vitrine" id="home">
-        <div class="textimg">
-            <h1 class="textopo">
-                Maurício
-                <span class="textsecund">Assenço</span>
-            </h1>
-            <h2 class="textbaixo">
-                HTML 5, CSS 3, Bootstrap & SASS
-            </h2>
-            <div class="sociais-meio">
-                <a href="#!">
-                    <i class="fab fa-twitter fa-2x"></i>
-                </a>
-                <a href="#!">
-                    <i class="fab fa-facebook fa-2x"></i>
-                </a>
-                <a href="#!">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                <a href="https://github.com/mauassenco" target="_blank">
-                    <i class="fab fa-github fa-2x"></i>
-                </a>
-                <a href="#!">
-                    <i class="fab fa-instagram fa-2x"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="sobre" id="sobre">
-        <div class="container">
-            <h1 class="textopo">
-                Sobre
-                <span class="textsecund">Mim</span>
-            </h1>
-            <h2 class="textbaixo">
-                <span class="textsecund">Olá !</span> Seja bem vindo, eu
-                sou Maurício Assenço e aqui você pode saber um pouco
-                mais sobre mim.
-            </h2>
-
-            <div class="sobre-container">
-                <div class="acad-bio">
-                    <h2 class="textsecund">Vida acadêmica</h2>
-                    <p class="p-menor"> Cursei 3 anos de engenharia elétrica
-                        em São Paulo,
-                        na <a href="https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/engenharia-eletrica/"
-                            target="_blank">Universidade
-                            Presbiteriana Mackenzie(UPM)</a>. Lá, fui
-                        monitor
-                        de Linguagem de
-                        Programação (C/C++) e cálculo e fiz um projeto de
-                        iniciação cientifica com bolsa pelo
-                        <a href="http://www.cnpq.br/web/guest/pibic" target="_blank">CNPq</a>.
-                        De 2015 a 2016 tive a oportunidade de ir para os
-                        Estados Unidos, através do programa <a
-                            href="http://cienciasemfronteiras.gov.br/web/csf/o-programaCiências" target="_blank">
-                            Ciência sem Fronteiras</a>. Em 2017
-                        ingressei no curso de <a href="https://www.ect.ufrn.br/" target="_blank">Ciência
-                            e
-                            Tecnologia da
-                            Universidade Federal do Rio Grande do
-                            Norte(UFRN)</a>,
-                        o qual
-                        estou cursando no momento e ainda não decidi qual
-                        ênfase que irei escolher. Atualmente
-                        tento ingressar na <a href="http://www.ejectufrn.com.br" target="_blank">EJECT</a>,
-                        empresa junior da escola
-                        de
-                        Ciência e
-                        Tecnologia da UFRN.</p>
+        <!--Inicio Vitrine-->
+        <section class="vitrine" id="home">
+            <div class="textimg">
+                <h1 class="texto-primario">
+                    Maurício
+                    <span
+                        class="texto-secundario">Assenço</span>
+                </h1>
+                <h5 class="textbaixo">
+                    Algumas coisas sobre mim...
+                </h5>
+                <div class="sociais">
+                    <a href="https://twitter.com/AssencoMau" target="_blank">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mau.assenco"
+                        target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/mauricio-assen%C3%A7o-7427a117a/"
+                        target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/mauassenco" target="_blank">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mau.assenco"
+                        target="_blank">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
                 </div>
-                <div class="retrato">
-                    <img src="img/retrato.jpg" alt="Retrato Mauricio
+            </div>
+        </section>
+        <!--Fim Vitrine-->
+
+        <!--Inicio Sobre-->
+        <section class="sobre" id="sobre">
+            <div class="container">
+                <h1 class="texto-primario">
+                    Sobre
+                    <span class="texto-secundario">Mim</span>
+                </h1>
+                <h5 class="textbaixo">
+                    <span class="texto-secundario">Olá !</span> Seja bem vindo,
+                    eu
+                    sou Maurício Assenço e aqui você pode saber um pouco
+                    mais sobre mim.
+                </h5>
+
+                <div class="bioinfo-container">
+                    <div class="info-bio retrato">
+                        <img src="img/retrato.jpg" alt="Retrato Mauricio
                             Assenco">
+                    </div>
+                    <div class="info-bio">
+                        <h2 class="texto-secundario">Vida acadêmica</h2>
+                        <p class="p-menor"> Cursei 3 anos de engenharia elétrica
+                            em São Paulo,
+                            na <a
+                                href="https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/engenharia-eletrica/"
+                                target="_blank">Universidade
+                                Presbiteriana Mackenzie(UPM)</a>. Lá, fui
+                            monitor
+                            de Linguagem de
+                            Programação (C/C++) e cálculo e fiz um projeto de
+                            iniciação cientifica com bolsa pelo
+                            <a href="http://www.cnpq.br/web/guest/pibic"
+                                target="_blank">CNPq</a>.
+                            De 2015 a 2016 tive a oportunidade de ir para os
+                            Estados Unidos, através do programa <a
+                                href="http://cienciasemfronteiras.gov.br/web/csf/o-programaCiências"
+                                target="_blank">
+                                Ciência sem Fronteiras</a>. Em 2017
+                            ingressei no curso de <a
+                                href="https://www.ect.ufrn.br/" target="_blank">Ciência
+                                e
+                                Tecnologia da
+                                Universidade Federal do Rio Grande do
+                                Norte(UFRN)</a>,
+                            o qual
+                            estou cursando no momento e ainda não decidi qual
+                            ênfase que irei escolher. Atualmente
+                            tento ingressar na <a
+                                href="http://www.ejectufrn.com.br"
+                                target="_blank">EJECT</a>,
+                            empresa júnior da escola
+                            de
+                            Ciência e
+                            Tecnologia da UFRN.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="acadcard-container">
-                <div class="acad acad-info">
-                    <img class="logos" src="img/mackenzie.png" alt="Universidade
+                <div class="acadcard-container">
+                    <div class="acad acad-info">
+                        <img class="logos" src="img/mackenzie.png"
+                            alt="Universidade
                             Presbiteriana Mackenzie">
-                    <h3>Universidade Presbiteriana Mackenzie.</h3>
-                    <li>Monitoria Linguagem de Programação.</li>
-                    <li>Monitoria Calculo.</li>
-                    <li>Iniciação cientifica (bolsa CNPq).</li>
-                    <li>Competição LEGO de robos programáveis.</li>
-                    <li>Calculo I, II, III, IV.</li>
-                    <li>Fundamentos Eletrônica e Eletricidade.</li>
-                </div>
-                <div class="acad acad-info">
-                    <img class="logos" src="img/csf2.jpg" alt="Ciência sem Fronteiras">
-                    <h3>Ciência sem Fronteiras</h3>
-                    <li>Aprimoramento do inglês.</li>
-                    <li>University of Alabama (9 meses).</li>
-                    <li>University of California (3 meses).</li>
-                    <li>Participação em projeto de pesquisa.</li>
-                    <li>Aprendizado das ferramentas: Mathlab, CAD e Mathcad.</li>
-                    <li>Alemão instrumental.</li>
-                </div>
-                <div class="acad acad-info">
-                    <img class="logos" src="img/ufrn2.png" alt="Universidade Federal do Rio Grande do Norte">
-                    <h3>Escola de Ciência e Tecnologia.</h3>
-                    <li>Arranjos Produtivos Tecnologicos.</li>
-                    <li>Macroeconomia e Teoria da Administração.</li>
-                    <li>Política Cientifica Tecnologica.</li>
-                    <li>Gestão Estratégica.</li>
-                    <li>Balance Scorecard, SWOT, Weka e Mapa Estratégico.</li>
-                </div>
-                <div class="acad acad-info interrog">
-                    <img class="logos" src="img/ejectc2.jpg" alt="Empresa Junior da Escola de Ciencia e
+                        <h3>Universidade Presbiteriana Mackenzie.</h3>
+                        <li>Monitoria Linguagem de Programação.</li>
+                        <li>Monitoria Calculo.</li>
+                        <li>Iniciação cientifica (bolsa CNPq).</li>
+                        <li>Competição LEGO de robos programáveis.</li>
+                        <li>Calculo I, II, III, IV.</li>
+                        <li>Fundamentos Eletrônica e Eletricidade.</li>
+                    </div>
+                    <div class="acad acad-info">
+                        <img class="logos" src="img/csf2.jpg" alt="Ciência sem
+                            Fronteiras">
+                        <h3>Ciência sem Fronteiras</h3>
+                        <li>Aprimoramento do inglês.</li>
+                        <li>University of Alabama (9 meses).</li>
+                        <li>University of California (3 meses).</li>
+                        <li>Participação em projeto de pesquisa.</li>
+                        <li>Aprendizado das ferramentas: Mathlab, CAD e Mathcad.</li>
+                        <li>Alemão instrumental.</li>
+                    </div>
+                    <div class="acad acad-info">
+                        <img class="logos" src="img/ufrn2.png" alt="Universidade
+                            Federal do Rio Grande do Norte">
+                        <h3>Escola de Ciência e Tecnologia.</h3>
+                        <li>Arranjos Produtivos Tecnológicos.</li>
+                        <li>Macroeconomia e Teoria da Administração.</li>
+                        <li>Política Cientifica Tecnológica.</li>
+                        <li>Gestão Estratégica.</li>
+                        <li>Balance Scorecard, SWOT, Weka e Mapa Estratégico.</li>
+                    </div>
+                    <div class="acad acad-info interrog">
+                        <img class="logos" src="img/ejectc2.jpg" alt="Empresa
+                            Junior da Escola de Ciencia e
                             Tecnologia">
-                    <h3>Empresa Junior da Escola de Ciencia e
-                        Tecnologia</h3>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p class="textsecund">?</p>
+                        <h3>Empresa Junior da Escola de Ciencia e
+                            Tecnologia</h3>
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                        <p class="texto-secundario">?</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!--Final Sobre-->
 
-    <section class="competencias" id="competencias">
-        <div class="container">
-            <h1 class="textopo">
-                <span class="textsecund">Competências</span>
-            </h1>
-            <h2 class="textbaixo">
-                Estas são algumas das ferramentas que utilizo para
-                desenvolvimento. Estou
-                constantemente buscando melhorar meu conhecimento sobre elas
-                e
-                aprender
-                novas.
-            </h2>
-            <div class="competencias-container">
-                <div class="compet-info">
-                    <img class="logos" src="img/html5b.png" alt="HTML 5">
-                </div>
-                <div class="compet-info">
-                    <img class="logos" src="img/css3b.png" alt="CSS 3">
-                </div>
-                <div class="compet-info">
-                    <img class="logos" src="img/bootstrapb.png" alt="Bootstrap">
-                </div>
-                <div class="compet-info">
-                    <img class="logos" src="img/sassb.png" alt="SASS">
-                </div>
-                <div class="compet-info">
-                    <img class="logos" src="img/gitb.jpeg" alt="git">
-                </div>
-                <div class="compet-info">
-                    <img class="logos" src="img/pythonb.png" alt="Python">
+        <!-- Inicio Desenvoldimento-->
+        <section class="desenvolvimento" id="desenvolvimento">
+            <div class="container">
+                <h1 class="texto-primario">
+                    <span class="texto-secundario">Desenvolvimento</span>
+                </h1>
+                <h5 class="textbaixo">
+                    Estas são algumas das ferramentas que utilizo para
+                    desenvolvimento. Estou
+                    constantemente buscando melhorar meu conhecimento sobre elas
+                    e
+                    aprender
+                    novas.
+                </h5>
+                <div class="desenvolvimento-container">
+                    <div class="compet-info">
+                        <img class="logos" src="img/html5b.png" alt="HTML 5">
+                    </div>
+                    <div class="compet-info">
+                        <img class="logos" src="img/css3b.png" alt="CSS 3">
+                    </div>
+                    <div class="compet-info">
+                        <img class="logos" src="img/bootstrapb.png"
+                            alt="Bootstrap">
+                    </div>
+                    <div class="compet-info">
+                        <img class="logos" src="img/sassb.png" alt="SASS">
+                    </div>
+                    <div class="compet-info">
+                        <img class="logos" src="img/gitb.jpeg" alt="git">
+                    </div>
+                    <div class="compet-info">
+                        <img class="logos" src="img/pythonb.png" alt="Python">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- Final Desenvoldimento-->
 
-    <section class="contato" id="contato">
-        <div class="container">
-            <h1 class="textopo">
-                <span class="textsecund">Contato</span>
-            </h1>
-            <h2 class="textbaixo">
-                Sinta-se a vontade para entrar em contato comigo !
-            </h2>
-            <div class="contato-container">
-                <form class="box" action="#home" method="post">
-                    <div class="dados">
-                        <input type="text" name="" placeholder="Seu Nome">
-                        <input type="email" name="" placeholder="Seu email">
-                        <input type="tel" name="" placeholder="Seu
-                                Telefone">
-                    </div>
-                    <div class="mensagem">
-                        <textarea name="mensagem" id="" cols="50" rows="10"></textarea>
-                    </div>
-                    <div class="botoes">
-                        <input type="submit" name="" value="Enviar">
-                        <input type="reset" name="" value="Apagar">
-                    </div>
-                </form>
-            </div>
+        <!-- Inicio Contato-->
+        <section class="contato" id="contato">
+            <div class="container">
+                <h1 class="texto-primario">
+                    <span class="texto-secundario">Contato</span>
+                </h1>
+                <h5 class="textbaixo">
+                    Sinta-se a vontade para entrar em contato comigo !
+                </h5>
+                <div class="centraliza">
+                    <form class="box" action="#home" method="post">
+                        <div class="contato-container">
+                            <div class="dados">
+                                <input type="text" name="nome"
+                                    placeholder="Seu nome">
+                                <input type="email" name="email"
+                                    placeholder="Seu email">
+                                <input type="tel" name="telefone"
+                                    placeholder="Seu telefone">
+                            </div>
+                            <div class="mensagem">
+                                <textarea name="mensagem" id=""
+                                    placeholder="Digite aqui sua mensagem"
+                                    cols="50"
+                                    rows="10"></textarea>
+                            </div>
+                            <div class="botoes">
+                                <input type="submit" name="" value="Enviar">
+                                <input type="reset" name="" value="Apagar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- Fim Contato-->
 
-    </section>
+            <!-- Inicio Rodapé-->
+            <footer class="rodape">
+                ProSEmpre - EJECT - &copy; 2019 Mauricio <span
+                    class="texto-secundario">Assenço</span>.
+                Copyright
+                <div class="sociais">
+                    <a href="https://twitter.com/AssencoMau" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mau.assenco"
+                        target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/mauricio-assen%C3%A7o-7427a117a/"
+                        target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/mauassenco" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href=https://www.instagram.com/mau.assenco"
+                        target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </footer>
+            <!-- Fim Rodapé-->
 
-    <footer class="rodape">
-        ProSEmpre - EJECT - &copy; 2019 Mauricio <span class="text-secondary">Assenço</span>.
-        Copyright
-        <div class="sociais-rodape">
-            <a href="#!">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-facebook"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/mauassenco" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-    </footer>
-</body>
 
-</html>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous">
+        </script>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous">
+        </script>
+            <script
+                src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                crossorigin="anonymous">
+        </script>
+        </body>
+    </html>
