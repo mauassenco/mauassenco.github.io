@@ -62,13 +62,11 @@ html {
   width: 100%;
   z-index: 10;
   opacity: 0.93;
-
 }
 
 .navbar ul {
   padding: 0;
   list-style: none;
-
 }
 
 .navbar li {
@@ -82,7 +80,6 @@ html {
   padding-right: 15px;
   margin: 2px;
 }
-
 
 #destaque {
   padding: 10px;
@@ -188,10 +185,6 @@ ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
-.acad-info h3 {
-  text-decoration: underline;
-}
-
 .acad-info li {
   margin-left: 10px;
   text-align: left;
@@ -238,7 +231,7 @@ a:visited {
 .desenvolvimento .textbaixo {
   color: var(--txt);
   text-align: justify;
-  background: rgba(3, 3, 3, .6);
+  background: rgba(3, 3, 3, 0.6);
 }
 
 .desenvolvimento-container {
@@ -250,7 +243,7 @@ a:visited {
 
 .compet-info {
   color: var(--txt);
-  opacity: .9;
+  opacity: 0.9;
   background: #333;
   padding: 0.5rem;
   border-bottom: var(--sec) 5px solid;
@@ -277,8 +270,9 @@ a:visited {
   grid-row-gap: 0;
   grid-column-gap: 15px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-areas: 'dds msg'
-    'bts bts';
+  grid-template-areas:
+    "dds msg"
+    "bts bts";
   float: left;
   position: relative;
 }
@@ -370,8 +364,7 @@ textarea {
   margin-bottom: 10px;
 }
 
-@media(max-width: 538px) {
-
+@media (max-width: 538px) {
   .container {
     width: 100%;
   }
@@ -406,15 +399,16 @@ textarea {
   }
 
   .sobre-container {
-    grid-template-areas: 'bioimage'
-      'bio';
+    grid-template-areas:
+      "bioimage"
+      "bio";
   }
 
   .contato-container {
-    grid-template-areas: 'dds'
-      'msg'
-      'bts'
-      'bts';
+    grid-template-areas:
+      "dds"
+      "msg"
+      "bts"
+      "bts";
   }
-
 }
