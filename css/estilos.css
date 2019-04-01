@@ -81,22 +81,6 @@ html {
   margin: 2px;
 }
 
-#destaque {
-  padding: 10px;
-  border: 2px dotted var(--sec);
-  border-radius: 10px;
-}
-
-/*Arrumar hoobver
-.navbar a:hover {
-  color: var(--sec);
-  border: 2px solid var(--sec) !important;
-  background-color: var(--main) !important;
-  transition: all 0.5s ease-out;
-  margin: -14px !important;
-}
-*/
-
 .vitrine {
   background-image: url("../img/bkg2.JPG");
   min-height: 100%;
@@ -195,8 +179,8 @@ ul {
 }
 
 .interrog p {
-  margin-top: 0;
-  font-size: 2.7rem;
+  margin-top: 50px;
+  font-size: 4rem;
   text-align: center;
 }
 
@@ -216,7 +200,7 @@ a:visited {
 
 .desenvolvimento {
   padding-top: 20px;
-  background-image: url("../img/bkg6.JPG");
+  background-image: url("../img/bkg6.jpg");
   min-height: 100%;
   position: relative;
   opacity: 0.8;
@@ -297,7 +281,7 @@ textarea {
 }
 
 ::placeholder {
-  color: var(--sec);
+  color: var(--sec) !important;
 }
 
 .botoes {
@@ -410,5 +394,8 @@ textarea {
       "msg"
       "bts"
       "bts";
+  }
+  .desenvolvimento h1 {
+    font-size: 2.3rem;
   }
 }
