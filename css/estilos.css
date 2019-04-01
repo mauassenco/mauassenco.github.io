@@ -9,7 +9,7 @@ html {
   height: 100%;
   margin: 0;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Righteous", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
 }
@@ -49,7 +49,8 @@ html {
   color: var(--sec) !important;
   transition: all 0.3s ease-out;
 }
-/*testw*/
+
+/*Hover 12*/
 .barra-menu ul li a,
 .barra-menu ul li a:after,
 .barra-menu ul li a:before {
@@ -60,9 +61,11 @@ html {
   position: relative;
   z-index: 1;
 }
+
 .barra-menu ul li a:hover {
   color: var(--txt) !important;
 }
+
 .barra-menu ul li a:after {
   display: block;
   position: absolute;
@@ -80,6 +83,7 @@ html {
   opacity: 0;
   z-index: -1;
 }
+
 .barra-menu ul li a:hover:after {
   opacity: 1;
   visibility: visible;
@@ -87,6 +91,7 @@ html {
 }
 
 /* */
+
 .container {
   width: 80%;
   margin: auto;
@@ -202,6 +207,7 @@ ul {
   font-style: italic;
   padding-top: 10px;
 }
+
 .acad-info {
   background: #444;
   padding: 0.5rem;
@@ -437,6 +443,7 @@ textarea {
       "bts"
       "bts";
   }
+
   .desenvolvimento h1 {
     font-size: 2.3rem;
   }
